@@ -117,3 +117,18 @@ a {
     margin-right: 15px;
     padding-right: 15px;
   }
+
+
+
+  @media (max-width: 800px) {
+    .nav {
+      float: none;
+      background: #900;
+      width: 100%;
+    }
+  
+    .nav li {
+      display: inline-block;
+    }
+
+  }
